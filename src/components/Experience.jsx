@@ -4,6 +4,20 @@ import { Award, Briefcase, GraduationCap, MapPin, Calendar, CheckCircle2, Downlo
 
 const experience = [
     {
+        role: "Secretary",
+        company: "IEEE Computer Society NMIET",
+        location: "Pune",
+        duration: "Present",
+        details: "Leading technical initiatives, organizing events and hackathons, and fostering a community of tech enthusiasts within the student chapter."
+    },
+    {
+        role: "Contributor",
+        company: "GirlScript Summer of Code (GSSoC)",
+        location: "Remote",
+        duration: "2026",
+        details: "Actively contributed to open source projects."
+    },
+    {
         role: "Core Java Intern",
         company: "UniConverge Technologies",
         location: "Noida (Remote)",
@@ -152,8 +166,8 @@ const Experience = () => {
                             className="mt-12 flex justify-start"
                         >
                             <a
-                                href="/MayurTayade_resume.pdf"
-                                download="Mayur_Tayade_Resume.pdf"
+                                href="/Mayur%20Resume.pdf"
+                                download="Mayur_Resume.pdf"
                                 className="group relative px-8 py-3.5 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white font-semibold transition-all shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] flex items-center justify-center hover:-translate-y-1"
                             >
                                 <span className="absolute inset-0 w-full h-full -mt-1 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>

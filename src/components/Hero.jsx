@@ -59,7 +59,7 @@ const Hero = () => {
                             transition={{ delay: 0.6, duration: 0.8 }}
                             className="text-gray-400 max-w-lg text-lg leading-relaxed mt-6"
                         >
-                            Aspiring Software Development Engineer crafting scalable, efficient, and visually stunning web applications. Expertise in Java, Spring Boot, cutting-edge MERN stack technologies, and AI Prompt Engineering.
+                            Aspiring Software Development Engineer crafting scalable, efficient, and visually stunning web applications. Expertise in Java, Spring Boot, cutting-edge MERN stack technologies, and AI Prompt Engineering. Currently serving as Secretary @IEEE Computer Society NMIET.
                         </motion.p>
 
                         {/* Buttons intentionally removed from Hero section */}
