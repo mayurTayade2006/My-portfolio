@@ -166,7 +166,7 @@ const Experience = () => {
                             className="mt-12 flex justify-start"
                         >
                             <a
-                                href="/Mayur%20Resume.pdf"
+                                href="/Mayur_Resume.pdf"
                                 download="Mayur_Resume.pdf"
                                 className="group relative px-8 py-3.5 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white font-semibold transition-all shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] flex items-center justify-center hover:-translate-y-1"
                             >

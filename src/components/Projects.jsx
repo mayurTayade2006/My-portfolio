@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Activity, Server, Layout } from 'lucide-react';
+import { Github, ExternalLink, Activity, Server, Layout, Users } from 'lucide-react';
 
 const projects = [
     {
@@ -27,6 +27,15 @@ const projects = [
         icon: <Server className="w-6 h-6 text-green-400" />,
         image: "/spendify.png", // Added Spendify photo
         tech: ["MERN Stack", "Express JS", "JWT", "Mongoose", "Gemini API", "Bcrypt JS", "Tailwind CSS"],
+        github: "https://github.com/mayurTayade2006",
+        demo: "#"
+    },
+    {
+        title: "WorkSphere: Workforce Management",
+        description: "WorkSphere is an Employee Management Platform handling employee records and department searches. Its backend uses Spring Boot 3, Java 21, and Oracle Database, while its React (Vite + JavaScript) frontend provides a responsive Single Page Application utilizing React Router, Axios, and clean Vanilla CSS for state-of-the-art workforce tracking.",
+        icon: <Users className="w-6 h-6 text-amber-400" />,
+        image: "/worksphere.jpg",
+        tech: ["Spring Boot 3", "Java 21", "Oracle DB", "React (Vite)", "React Router", "Axios", "Vanilla CSS"],
         github: "https://github.com/mayurTayade2006",
         demo: "#"
     }
