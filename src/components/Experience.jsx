@@ -4,6 +4,20 @@ import { Award, Briefcase, GraduationCap, MapPin, Calendar, CheckCircle2, Downlo
 
 const experience = [
     {
+        role: "Technical Lead",
+        company: "IEEE NMIET",
+        location: "Pune",
+        duration: "Present",
+        details: "Responsible for Smooth Flow of Technical Events of IEEE Student branch NMIET Club and guiding Technical Coordinators in club."
+    },
+    {
+        role: "Frontend Developer",
+        company: "Zetheta Algorithms Private Limited",
+        location: "Remote",
+        duration: "Present",
+        details: "Worked on a Meridian project Asset Portfolio Analytics Dashboard using Frontend Tech Stack."
+    },
+    {
         role: "Secretary",
         company: "IEEE Computer Society NMIET",
         location: "Pune",
