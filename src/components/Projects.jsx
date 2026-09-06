@@ -1,8 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Activity, Server, Layout, Users } from 'lucide-react';
+import { Github, ExternalLink, Activity, Server, Layout, Users, Bot } from 'lucide-react';
 
 const projects = [
+    {
+        title: "AETHRIX: Autonomous AI SWE Platform",
+        description: "AETHRIX is an autonomous AI software engineering platform built with React, Vite, Tailwind CSS, Python, and REST APIs. It uses multi-agent AI workflows to analyze repositories, find root causes, generate fixes, and verify them through testing. It features an interactive multicolor Evidence Graph to visualize the debugging process and evidence, along with sandbox execution, regression testing, recovery, and human approval for safer AI-generated fixes.",
+        icon: <Bot className="w-6 h-6 text-cyan-400" />,
+        image: "/aethrix.jpg",
+        tech: ["React", "Vite", "Tailwind CSS", "Python", "REST APIs", "Multi-Agent AI", "Evidence Graph"],
+        github: "https://github.com/mayurTayade2006",
+        demo: "#"
+    },
     {
         title: "Arogya AI: Intelligent Healthcare",
         description: "Built a MERN-based AI healthcare platform integrating Gemini AI for symptom triage, hospital recommendations, and predictive health scoring, with OCR, JWT auth, and multilingual support.",
