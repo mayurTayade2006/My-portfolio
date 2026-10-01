@@ -106,9 +106,14 @@ const Projects = () => {
                                     {/* Project Logo/Icon removed as requested */}
 
                                     <h3 className="text-2xl font-bold text-gray-100 mb-3">{project.title}</h3>
-                                    <p className="text-gray-400 mb-6 flex-grow leading-relaxed">
-                                        {project.description}
-                                    </p>
+                                    <div className="text-gray-400 mb-6 flex-grow leading-relaxed flex flex-col items-start">
+                                        <p>{project.description}</p>
+                                        {project.demo && project.demo !== "#" && (
+                                            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors group/link mt-3">
+                                                <ExternalLink className="w-4 h-4 group-hover/link:scale-110 transition-transform" /> {project.title === "IEEE Student Branch Website" ? "IEEE Website Link" : "Live Demo"}
+                                            </a>
+                                        )}
+                                    </div>
 
                                     <div className="flex flex-wrap gap-2 mb-8">
                                         {project.tech.map((tech, i) => (
@@ -119,14 +124,6 @@ const Projects = () => {
                                                 {tech}
                                             </span>
                                         ))}
-                                    </div>
-
-                                    <div className="mt-auto flex items-center gap-6 pb-2">
-                                        {project.demo && project.demo !== "#" && (
-                                            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors group/link">
-                                                <ExternalLink className="w-4 h-4 group-hover/link:scale-110 transition-transform" /> {project.title === "IEEE Student Branch Website" ? "IEEE Website Link" : "Live Demo"}
-                                            </a>
-                                        )}
                                     </div>
 
                                 </div>
