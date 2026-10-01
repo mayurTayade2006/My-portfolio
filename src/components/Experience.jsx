@@ -53,11 +53,11 @@ const experience = [
         details: "Built RESTful APIs using Java and Spring Boot. Worked on database integration, testing, and deployment while maintaining clean and efficient code."
     },
     {
-        role: "Technical Coordinator",
+        role: "Vice President – Meta Coders Club",
         company: "Meta Coders Club, NMIET",
         location: "Pune",
         duration: "Sep 2025 – Present",
-        details: "Mentored and helped students in DSA & debugging, conducted coding workshops, and contributed to organizing hackathons and technical initiatives."
+        details: "Leading technical initiatives, mentoring student developers, coordinating development activities, and contributing to the planning and execution of technical events and projects."
     }
 ];
 

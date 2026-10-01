@@ -5,9 +5,9 @@ import { Code2, Database, Layout, Terminal } from 'lucide-react';
 const About = () => {
     const highlights = [
         {
-            label: "7 Months",
-            title: "Industry Experience",
-            description: "Across SDLC in Java & Full-Stack.",
+            label: "1 Year",
+            title: "Hands-on Software Development Experience",
+            description: "Through internships and technical roles.",
             icon: <Terminal className="w-5 h-5 text-blue-400" />
         },
     ];
@@ -50,7 +50,7 @@ const About = () => {
                         <div className="glass p-6 rounded-2xl relative overflow-hidden group">
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                             <p className="relative z-10 italic text-gray-300">
-                                "As a Technical Coordinator for Meta Coders Club,NMIET , I've helped students in DSA, debugging, and guided peers in solving complex coding challenges."
+                                "As Vice President – Meta Coders Club, NMIET, I've helped students in DSA, debugging, and guided peers in solving complex coding challenges."
                             </p>
                         </div>
 

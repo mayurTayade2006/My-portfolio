@@ -43,13 +43,13 @@ const Hero = () => {
                             className="flex flex-wrap items-center gap-3 mt-4"
                         >
                             <span className="text-xl md:text-2xl font-semibold text-gray-200">
-                                Java Developer
+                                Agentic AI & Multi-Agent Systems
                             </span>
                             <span className="text-xl md:text-2xl font-bold text-white bg-blue-600/40 px-4 py-1.5 rounded-md border border-blue-500/30">
                                 MERN Stack
                             </span>
                             <span className="text-xl md:text-2xl font-bold text-white bg-purple-600/40 px-4 py-1.5 rounded-md border border-purple-500/30">
-                                AI Enthusiast
+                                Agentic AI Enthusiast
                             </span>
                         </motion.div>
 
@@ -59,7 +59,7 @@ const Hero = () => {
                             transition={{ delay: 0.6, duration: 0.8 }}
                             className="text-gray-400 max-w-lg text-lg leading-relaxed mt-6"
                         >
-                            Aspiring Software Development Engineer crafting scalable, efficient, and visually stunning web applications. Expertise in Java, Spring Boot, cutting-edge MERN stack technologies, and AI Prompt Engineering. Currently serving as Secretary @IEEE Computer Society NMIET.
+                            Full-Stack Developer & Agentic AI Enthusiast crafting scalable, efficient, and visually stunning web applications. Exploring Agentic AI, multi-agent systems, and intelligent software applications. Expertise in Java, Spring Boot, cutting-edge MERN stack technologies, and AI Prompt Engineering. With 1 year of hands-on software development experience through internships and technical roles.
                         </motion.p>
 
                         {/* Buttons intentionally removed from Hero section */}
