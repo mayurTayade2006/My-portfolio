@@ -7,6 +7,7 @@ const projects = [
         title: "IEEE Student Branch Website",
         description: "Designed and developed the IEEE Student Branch NMIET website, contributing approximately 90% of the overall project development and implementation.",
         icon: <ExternalLink className="w-6 h-6 text-blue-400" />,
+        image: "/ieee-sb.png",
         tech: ["React.js", "JavaScript", "Tailwind CSS", "Vercel"],
         github: "https://github.com/mayurTayade2006",
         demo: "https://ieee-website-ashen-seven.vercel.app/"
