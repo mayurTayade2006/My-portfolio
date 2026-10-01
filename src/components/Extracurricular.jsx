@@ -12,6 +12,14 @@ const activities = [
         details: "Serving as the IEEE Computer Society Secretary, contributing to technical community initiatives, coordinating activities, supporting student engagement, and helping organize technical events and learning programs."
     },
     {
+        role: "Vice President",
+        company: "Meta Coders Club, NMIET",
+        duration: "Present",
+        location: "Pune",
+        image: "/meta-coders.png",
+        details: "Supporting the leadership and technical direction of Meta Coders Club, mentoring student developers, coordinating technical initiatives, and contributing to coding events, projects, and community activities."
+    },
+    {
         role: "Technical Lead",
         company: "IEEE Student Branch, NMIET",
         duration: "Present",
@@ -26,14 +34,6 @@ const activities = [
         location: "Pune",
         image: "/ieee-sb.png",
         details: "Managing and developing web-based initiatives for the IEEE Student Branch, maintaining digital platforms, and contributing to the branch's online presence and technical activities."
-    },
-    {
-        role: "Vice President",
-        company: "Meta Coders Club, NMIET",
-        duration: "Present",
-        location: "Pune",
-        image: "/meta-coders.png",
-        details: "Supporting the leadership and technical direction of Meta Coders Club, mentoring student developers, coordinating technical initiatives, and contributing to coding events, projects, and community activities."
     }
 ];
 

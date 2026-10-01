@@ -4,32 +4,11 @@ import { Award, Briefcase, GraduationCap, MapPin, Calendar, CheckCircle2, Downlo
 
 const experience = [
     {
-        role: "Technical Lead",
-        company: "IEEE NMIET",
-        location: "Pune",
-        duration: "Present",
-        details: "Responsible for Smooth Flow of Technical Events of IEEE Student branch NMIET Club and guiding Technical Coordinators in club."
-    },
-    {
         role: "Frontend Developer",
         company: "Zetheta Algorithms Private Limited",
         location: "Remote",
         duration: "Present",
         details: "Worked on a Meridian project Asset Portfolio Analytics Dashboard using Frontend Tech Stack."
-    },
-    {
-        role: "Secretary",
-        company: "IEEE Computer Society NMIET",
-        location: "Pune",
-        duration: "Present",
-        details: "Leading technical initiatives, organizing events and hackathons, and fostering a community of tech enthusiasts within the student chapter."
-    },
-    {
-        role: "Contributor",
-        company: "GirlScript Summer of Code (GSSoC)",
-        location: "Remote",
-        duration: "2026",
-        details: "Actively contributed to open source projects."
     },
     {
         role: "Core Java Intern",
@@ -51,6 +30,20 @@ const experience = [
         location: "Remote",
         duration: "3 months",
         details: "Built RESTful APIs using Java and Spring Boot. Worked on database integration, testing, and deployment while maintaining clean and efficient code."
+    },
+    {
+        role: "Prominent Roles",
+        company: "IEEE Student Branch, NMIET",
+        location: "Pune",
+        duration: "Present",
+        details: "Served in key leadership positions including Secretary and Technical Lead, driving technical initiatives and organizing events."
+    },
+    {
+        role: "Contributor",
+        company: "GirlScript Summer of Code (GSSoC)",
+        location: "Remote",
+        duration: "2026",
+        details: "Actively contributed to open source projects."
     },
     {
         role: "Vice President – Meta Coders Club",

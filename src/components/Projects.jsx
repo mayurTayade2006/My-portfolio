@@ -124,12 +124,7 @@ const Projects = () => {
                                     <div className="mt-auto flex items-center gap-6 pb-2">
                                         {project.demo && project.demo !== "#" && (
                                             <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors group/link">
-                                                <ExternalLink className="w-4 h-4 group-hover/link:scale-110 transition-transform" /> Live Demo
-                                            </a>
-                                        )}
-                                        {project.github && project.github !== "#" && (
-                                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-semibold text-gray-400 hover:text-gray-300 transition-colors group/link">
-                                                <Github className="w-4 h-4 group-hover/link:scale-110 transition-transform" /> Code
+                                                <ExternalLink className="w-4 h-4 group-hover/link:scale-110 transition-transform" /> {project.title === "IEEE Student Branch Website" ? "IEEE Website Link" : "Live Demo"}
                                             </a>
                                         )}
                                     </div>
